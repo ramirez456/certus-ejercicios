@@ -1,83 +1,74 @@
 body{
+    background-color: black;
     margin: 0;
     padding: 0;
-    background-color: #9D0103
 }
 .contenedor{
-    margin: 24px 340px;
-    box-shadow: 0 0 0 1px white; 
+    margin: 2.5% 20%;
+    box-shadow: 0px 0px 0px 2px white
 }
 header{
     width: 100%;
-    height: 100px;
-    margin-bottom: 3px;
+    height: 300px;
+    margin-bottom: 5px;
+    background-color: white;
 }
 header img{
     width: 100%;
-    height: 100%;
+    height: 250px;
 }
 nav{
-    background-color: white;
     width: 100%;
-    height: 150px;
-    margin-bottom: 4px;
-}
-nav img{
-    width: 100%;
-    height: 100px;
+    height: 50px;
 }
 nav ul{
     list-style: none;
     margin: 0;
-    padding: 0 0 0 44px;
+    padding: 0 0 0 112px;
     width: 100%;
     height: 50px;
 }
-li{
+ul li{
     float: left;
-    margin: 12px 28px;
+    margin: 8px 32px ;
 }
-li a{
-    color: red;
+ul a{
+    color: black;
+}
+ul a:hover{
+    color: blue;
 }
 main{
     width: 100%;
-    height: 300px;
-}
-section{
-    width: 49.90%;
-    height: 300px;
-    background-color: white;
-    margin:0;
-    box-sizing: content-box;
-    float: left;
-}
-section h2{
-    margin: 0;
-    padding: 20px 0;
-}
-section p{
+    height: 400px;
     margin: 0;
     padding: 0;
 }
+section{
+    width: 49.85%;
+    height: 100%;
+    float: left;
+    background-color: white;
+}
 aside{
+    width: 49.85%;
+    height: 100%;
     float: right;
-    width: 49.90%;
 }
 aside img{
     width: 100%;
-    height: 300px;
+    height: 100%;
 }
 footer{
     width: 100%;
-    height: 24px;
-    padding: 0;
-    margin: 0;
-    background-color: #949494;
-    margin-top: 1px;
+    height: 32px;
+    background-color: #959595;
+    margin-top: 0.5px;
+    color: white;
 }
 footer p{
+    width: 100%;
     margin: 0;
-    padding: 0 0 0 6px;
-    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
 }
