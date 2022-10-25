@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Personales</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form1">
+        <fieldset>
+            <legend>Datos del Vehículo</legend>
+        Placa: <input type="text" name="xplaca" maxlength="7" placeholder="XXX-XXX" pattern="[0-9,A-Z]{3}[-]{1}[0-9,A-Z]{3}" required/>
+        <br>
+        Marca: <select name="xmarca">
+            <option selected>Seleccionar</option>
+            <option>BMW</option>
+            <option>TOYOTA</option>
+            <option>HONDA</option>
+            <option>MAZDA</option>
+        </select>
+        <br>
+        Modelo: <input type="text" name="xmodel" pattern="[a-z,A-Z,0-9]+" required>
+        <br>
+        Color: <input type="color" name="xcolor">
+        <br>
+        Precio: <input type="number" name="xprecio" pattern="[0-9]" placeholder="Solo números">
+        <br>
+        Fabricación: <input type="number" name="xfabri" pattern="[0-9]" placeholder="Solo números">
+        <br>
+        </fieldset>
+        <fieldset>
+            <legend>Financiamiento del Vehículo</legend>
+            Periodo: <select name="xperiodo">
+                <option selected>Seleccionar</option>
+                <option>6 meses</option>
+                <option>12 meses</option>
+                <option>18 meses</option>
+                <option>24 meses</option>
+            </select>
+            <br>
+            Fecha de pago: <input type="date" name="xfecha">
+            <br>
+            Cuota Inicial: <input type="number" name="xci" pattern="[0-9]" placeholder="Solo números">
+            <br>
+            Cuota Mensual: <input type="number" name="xcm" pattern="[0-9]" placeholder="Solo números">
+            <br>
+            Cuota doble: <input type="radio" name="r1">Si
+                        <input type="radio" name="r1">No    
+            <br>
+            Moneda: <input type="radio" name="r2">Soles
+                    <input type="radio" name="r2">Dólares
+            <br>
+        </fieldset>
+        <input type="submit" name="bt1" value="Enviar">
+    </form>
+    
+</body>
+</html>
