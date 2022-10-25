@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Crear Cuenta</h1>
+        <form id="form1">
+            <fieldset>
+                <legend>Registrate</legend>
+                    <label for="nombre">Primer Nombre:</label>
+                    <input type="text" name="nombre" placeholder="Ingrese su nombre" pattern="[a-z,A-Z]+" required>
+                    <br>
+                    <label for="nombre2">Segundo Nombre:</label>
+                    <input type="text" name="nombre2" placeholder="Ingrese su nombre" pattern="[a-z,A-Z]+" required>
+                    <br>
+                    <label for="apellido">Apellido Paterno:</label>
+                    <input type="text" name="apellido" placeholder="Ingrese su apellido" pattern="[a-z,A-Z]+" required>
+                    <br>
+                    <label for="apellido1">Apellido Materno:</label>
+                    <input type="text" name="apellido1" placeholder="Ingrese su apellido" pattern="[a-z,A-Z]+" required>
+                    <br>
+                    <label for="celular">Celular:</label>
+                    <input type="text" name="celular" maxlength="9" placeholder="999999999" pattern="[0-9]+" required>
+                    <br>
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" name="correo" placeholder="correo@cuenta.com" required>
+                    <br>
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" name="contraseña" placeholder="********" maxlength="8" pattern="[a-z,A-Z,0-9]{8}+" required>
+                    <br>
+                    <label for="nacimi">Fecha de nacimiento:</label>
+                    <input type="date" name="nacimi" required>
+                    <br>
+                    <label for="sexo">Sexo:</label>
+                    <input type="radio" name="sexo" required>Masculino  
+                    <input type="radio" name="sexo" required>Femenino
+                    <input type="radio" name="sexo" required>No binario
+            </fieldset>
+            <input type="submit" name="btn1" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>

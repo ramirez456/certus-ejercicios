@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #C47AFF;
+    height: 100vh;
+}
+.contenedor{
+    width: 600px;
+    height: 48%;
+    padding: 0;
+    margin: 5% auto;
+    background-color: #7978FF;
+    border-radius: 10px;
+
+}
+h1{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 8px 0;
+}
+#form1{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+}
+fieldset{
+    margin-bottom: 4px;
+}
+label, input{
+    margin-bottom: 8px;
+    font-size: medium;
+}
+input{
+    border: 1px solid #797979;
+    border-radius: 5px;
+}
+#form1 input[type='submit']{
+    margin:0 45%;
+    height: 24px;
+    width: 56px;
+    background-color: #C47AFF;
+}
